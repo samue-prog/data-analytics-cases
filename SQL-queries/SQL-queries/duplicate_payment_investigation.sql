@@ -11,7 +11,7 @@ FROM
     accounts_payable_table
 WHERE 
     payment_status = 'PAID'
-    AND invoice_date > '2023-01-01'
+    AND invoice_date > '2026-04-25'
 GROUP BY 
     vendor_id, 
     invoice_amount, 
